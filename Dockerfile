@@ -9,3 +9,6 @@ RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx
 COPY ./src ./src
 EXPOSE 5000
 CMD ["node", "src/server.js"]
+
+
+#summa change
